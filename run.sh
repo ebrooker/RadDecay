@@ -1,4 +1,7 @@
 #!/bin/bash
+
+mkdir figures
+mkdir output_data
 cd src
 gfortran -c environment_settings.f03
 gfortran -c rad_decay_class.f03
