@@ -37,8 +37,8 @@ IMPLICIT NONE
 	CLOSE(26)
 
 	header = .TRUE.
-	DO i=1,3
-		CALL chain%isotope_list(i)%print_info(header)
+	DO i=1,ODE%chain%nisos
+		CALL ODE%chain%isotope_list(i)%print_info(header)
 		header=.FALSE.
 	ENDDO
 
