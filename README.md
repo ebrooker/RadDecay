@@ -12,7 +12,7 @@ This code only supports a single decay chain for right now as this was originall
 
 Usage is simple at the moment, pull the entire GitHub repository (input/output directories included). In a BASH terminal, just use:
 `$ ./run.sh`
-and the code should execute.
+and the code should execute. Creates `output_data/` and `figures/` directories if they don't exist. Compiles Fortran source, then executes code, creates plot of result.
 
 The test.f03 file that comes in `src/` is the current program driver. There is a sample Ni56 decay chain input provided in `input_data/`
 
