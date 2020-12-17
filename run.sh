@@ -1,7 +1,14 @@
 #!/bin/bash
 
-mkdir figures
-mkdir output_data
+
+if [ ! -d "./figures" ]; then
+	mkdir figures
+fi
+
+if [ ! -d "./output_data" ]; then
+	mkdir output_data
+fi
+
 cd src
 gfortran -c environment_settings.f03
 gfortran -c rad_decay_class.f03
