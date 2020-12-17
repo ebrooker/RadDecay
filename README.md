@@ -22,6 +22,10 @@ To change the decay chain inputs, go to the `input_data/` directory. There will 
 
 Comes with a Python script, `plotting/plot.py` that reads the output data, `output_data/decay.dat` and produces a PDF figure, `figures/rad_decay_class.pdf`.
 
+## Currently Broken
+
+I broke something in the print statements at the end of code execution, haven't figured out what is, yet. Isotope abundances not staying with output...?
+
 ## Future
 
 I hope to expand this simple program into something more complex that can hold a general mapping of multiple decay chains and solve large systems of radioactive decay processes. I also plan to adapt the program to be more friendly when interfacing with integration subroutines (maybe even make my own simple integration library for it to call).
