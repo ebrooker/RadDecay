@@ -12,7 +12,7 @@ This code only supports a single decay chain for right now as this was originall
 
 Usage is simple at the moment, pull the entire GitHub repository (input/output directories included). In a BASH terminal, just use:
 `$ ./run.sh`
-and the code should execute.
+and the code should execute. Creates `output_data/` and `figures/` directories if they don't exist. Compiles Fortran source, then executes code, creates plot of result.
 
 The test.f03 file that comes in `src/` is the current program driver. There is a sample Ni56 decay chain input provided in `input_data/`
 
@@ -21,6 +21,10 @@ To change the decay chain inputs, go to the `input_data/` directory. There will 
 ## Visualization
 
 Comes with a Python script, `plotting/plot.py` that reads the output data, `output_data/decay.dat` and produces a PDF figure, `figures/rad_decay_class.pdf`.
+
+## Currently Broken
+
+I broke something in the print statements at the end of code execution, haven't figured out what is, yet. Isotope abundances not staying with output...?
 
 ## Future
 
