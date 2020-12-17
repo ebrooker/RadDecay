@@ -24,7 +24,7 @@ Comes with a Python script, `plotting/plot.py` that reads the output data, `outp
 
 ## Currently Broken
 
-I broke something in the print statements at the end of code execution, haven't figured out what is, yet. Isotope abundances not staying with output...?
+Nothing that I'm aware of...
 
 ## Future
 
